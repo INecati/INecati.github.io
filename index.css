@@ -1,0 +1,158 @@
+/* Genel stil ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    padding: 10px 30px;
+    background: #f39c12;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+header .btn:hover {
+    background: #e67e22;
+}
+
+/* Oyun Özellikleri */
+#features {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: left;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+}
+
+/* Ekran Görüntüleri */
+#screenshots {
+    background: #fafafa;
+    padding: 50px 0;
+}
+
+#screenshots h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.screenshot-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.screenshot-gallery img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Video Tanıtımı */
+#video {
+    background: #fff;
+    padding: 50px 0;
+}
+
+#video .video-container {
+    text-align: center;
+}
+
+#video iframe {
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* İndirme Linki */
+#download {
+    background: #222;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#download .btn {
+    padding: 15px 50px;
+    background: #f39c12;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+#download .btn:hover {
+    background: #e67e22;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.link {
+    color: #ffffff;
+    font-size: large;
+    font-weight: 600;
+}
